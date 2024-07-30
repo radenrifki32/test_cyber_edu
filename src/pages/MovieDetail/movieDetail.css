@@ -1,0 +1,50 @@
+.container-detail {
+    width: 100vw;
+    height: 100vh;
+}
+.detail-movie {
+display: flex;
+gap : 20px
+}
+.container-image {
+    width:50%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 20px;
+    border-radius: 20%;
+}
+.container-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0px 20px;
+}
+
+.container-content p{
+margin-top: 20px;
+text-align: center;
+}
+.container-genre {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.genre {
+    margin-top: 20px;
+    background-color: grey;
+    padding: 4px 6px;
+    border-radius: 10px;
+    width: 100px;
+    text-align: center;
+    color: white;
+}
+.container-spinner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
