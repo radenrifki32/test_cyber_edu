@@ -12,7 +12,7 @@ describe('MovieAll', () => {
     mockGetDataAllMovie.mockResolvedValue({
       results: [{
         id: 123,
-        title: "Test Movie", // Pastikan nama properti sesuai
+        title: "Test Movie", 
         overview: "Test Overview",
         poster_path: "/poster.jpg",
         popularity: 0,
